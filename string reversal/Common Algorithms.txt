@@ -1,0 +1,10 @@
+1. Reverse String
+2. Palindrome
+3. Integer Reversal
+4. Fizz Buzz
+5. Max Character
+6. Anagram
+7. Vowels
+8. Array Chunking 
+9. Reverse Array
+10. Reverse Words
