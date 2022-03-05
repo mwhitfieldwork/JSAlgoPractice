@@ -25,6 +25,8 @@ function anagram(str1,str2){
 	// then exit function.
 	//if you do find it in the freq obj then subtract the frequency value 
 	// from the letter it found in  the object
+	// when each letter subtracts as they are being matched in the object, its value subtracts (down to zero)
+	// if a letter in the second array is matched with a key whose value is already 0 - then return false
 	// if all of the letters from the second array are found in the obj
 	// then the function returns true
 	if(!freq[char]){
