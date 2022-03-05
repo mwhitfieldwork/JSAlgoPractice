@@ -13,7 +13,9 @@ function anagram(str1,str2){
  let freq = {}
  for(let i = 0; i<strArr1.length; i++){
 	let letter = strArr1[i];
-	freq[letter] ? freq[letter]++ : freq[letter] =1;
+	freq[letter] ? freq[letter]++ : freq[letter] =1; //check if strArr[i] 
+	                                                 //if its in the string array add 1
+													 //if its in there more than once increment the frequency
  }
  
  for(let j=0; j<strArr2.length; j++){
